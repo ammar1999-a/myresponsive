@@ -49,13 +49,17 @@ body {
         float: none; 
     } 
     
-     .header .nav-bar ul li {
+    .header .nav-bar ul li {
          margin-right: 0px !important;
          margin-left: 10px !important; 
     }
+    
+    
     .header .search {
         margin: auto !important; 
     }
+    
+    
     .header .search input { 
         position:relative;
         top: 0 !important ; 
@@ -65,21 +69,6 @@ body {
     
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
