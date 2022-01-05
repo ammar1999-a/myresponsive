@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box; 
+/*    border: solid red 2px */
+}
+
+body {
+    margin: 0 ; 
+    padding: 0 ; 
+    
+}
+
+.header {
+    background-color: bisque;
+    overflow: hidden
+    
+    
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0 ; 
+    position: relative; 
+    top:20px; 
+    left: 10px; 
+        
+}
+.header h1::first-letter {
+    color: darkred; 
+}
+
+.header .nav-bar {
+    float: left ; 
+    margin-left: 139px;
+
+    
+}
+.header .nav-bar ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.header .nav-bar ul li {
+    display: inline; 
+    margin-right: 20px;
+    margin-left: 20px; 
+}
+.header .search { 
+    float: right; 
+ } 
+
+.header .search input {
+    position: relative ; 
+    bottom: 42px;
+    margin-right: 77px;
+    margin-right:10px 
+        
+}
+/*clsses def*/
+
+.clearfix {
+clear: both;
+}
+
+.hidden-s {
+    display:block; 
+}
+
+/*end classes drf*/
+
+
+/*media quries*/
+
+@media (max-width: 600px) { small screen like phones*/
+    
+    .header .nav-bar , .header .search  {
+        float: none; 
+    } 
+    .header .nav-bar ul {
+        margin-left: -99px;
+    }
+    
+    .header .nav-bar ul li {
+         margin-right: 0px !important;
+         margin-left: 10px !important; 
+    }
+    
+    
+    .header .search {
+          margin-right: 144px  !important; 
+    }
+    
+    
+    .header .search input { 
+        position:relative;
+        top: 0 !important ; 
+        left: 30% !important;
+        margin-bottom: 5px ; 
+        
+    
+    }
+    
+    .hidden-s {
+    display:none; 
+}
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
