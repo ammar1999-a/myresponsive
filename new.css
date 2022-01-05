@@ -41,13 +41,29 @@ body {
         
 }
 
+/*clsses def*/
+
+.clearfix {
+clear: both;
+}
+
+.hidden-s {
+    display:block; 
+}
+
+/*end classes drf*/
+
+
 /*media quries*/
 
-@media (max-width: 600px) {
+@media (max-width: 600px) { small screen like phones*/
     
     .header .nav-bar , .header .search  {
         float: none; 
     } 
+    .header .nav-bar ul {
+        margin-left: -99px;
+    }
     
     .header .nav-bar ul li {
          margin-right: 0px !important;
@@ -56,7 +72,7 @@ body {
     
     
     .header .search {
-        margin: auto !important; 
+          margin-right: 144px  !important; 
     }
     
     
@@ -68,8 +84,14 @@ body {
         
     
     }
+    
+    .hidden-s {
+    display:none; 
+}
 }
 
+
+    
 
 
 
