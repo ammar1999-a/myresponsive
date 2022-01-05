@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box; 
+/*    border: solid red 2px */
+}
+
+body {
+    margin: 0 ; 
+    padding: 0 ; 
+    
+}
+
+.header {
+    background-color: bisque;
+    overflow: hidden
+    
+    
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0 ; 
+    position: relative; 
+    top:20px; 
+    left: 10px; 
+        
+}
+.header h1::first-letter {
+    color: darkred; 
+}
+
+.header .nav-bar {
+    float: left ; 
+    margin-left: 139px;
+
+    
+}
+.header .nav-bar ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.header .nav-bar ul li {
+    display: inline; 
+    margin-right: 20px;
+    margin-left: 20px; 
+}
+.header .search { 
+    float: right; 
+ } 
+
+.header .search input {
+    position: relative ; 
+    bottom: 42px;
+    margin-right: 77px;
+    margin-right:10px 
+        
+}
+/*clsses def*/
+
+.clearfix {
+clear: both;
+}
+
+.hidden-s {
+    display:block; 
+}
+.container {
+    margin: auto; 
+}
+
+.topics .topic {
+    width: 50%;
+    float: left; 
+    padding: 5px
+        
+}
+
+/*end classes drf*/
+
+
+/*media quries*/
+
+@media (max-width: 600px) { small screen like phones*/
+    
+    .header .nav-bar , .header .search  {
+        float: none; 
+    } 
+    .header .nav-bar ul {
+        margin-left: -99px;
+    }
+    
+    .header .nav-bar ul li {
+         margin-right: 0px !important;
+         margin-left: 10px !important; 
+    }
+    
+    
+    .header .search {
+          margin-right: 144px  !important; 
+    }
+    
+    
+    .header .search input { 
+        position:relative;
+        top: 0 !important ; 
+        left: 30% !important;
+        margin-bottom: 5px ; 
+        
+    
+    }
+    
+    .hidden-s {
+    display:none; 
+        
+/*        topics style*/
+}
+    .topics .topic {
+       ; 
+        
+}
+    .topics .topic:first-child {
+        
+        width: 86% !important;
+        background-color: bisque; 
+        float: none !important;
+        margin: 10px
+       
+            
+    }
+    .topics .topic:nth-child(2){
+        background-color: coral;
+        width: 40% !important;
+        margin-left: 10px ; 
+        margin-right: 10px ;
+        margin-top: 5px
+    }
+    
+     .topics .topic:nth-child(3){
+        background-color:darkcyan;
+          width: 40% !important;
+          margin-left: 10px ; 
+        margin-right: 10px ;
+          margin-top: 5px
+              
+    }
+    
+}
+
+/*container quries*/
+
+@media (min-width: 600px) { 
+     .container { 
+    width: 300px;   
+    }
+
+@media (min-width: 768px) { 
+     .container { 
+    width: 780px
+    
+    }
+   
+
+
+
+@media (min-width:992px) { 
+     .container { 
+    width: 1000px
+    
+    }
+}
+
+
+
+
+@media (min-width: 1200px) { 
+     .container { 
+    width: 1200px 
+    
+    }
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
