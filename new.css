@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box; 
+/*    border: solid red 2px */
+}
+
+body {
+    margin: 0 ; 
+    padding: 0 ; 
+    
+}
+
+/*header sectiom**********************************/
+
+.header {
+    background-color: bisque;
+    overflow: hidden
+    
+    
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0 ; 
+    position: relative; 
+    top:20px; 
+    left: 10px; 
+        
+}
+.header h1::first-letter {
+    color: darkred; 
+}
+
+.header .nav-bar {
+    float: left ; 
+    margin-left: 139px;
+
+    
+}
+.header .nav-bar ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.header .nav-bar ul li {
+    display: inline; 
+    margin-right: 20px;
+    margin-left: 20px; 
+}
+.header .search { 
+    float: right; 
+ } 
+
+.header .search input {
+    position: relative ; 
+    bottom: 42px;
+    margin-right: 77px;
+    margin-right:10px 
+        
+}
+
+/* topics section ***********************************/
+
+.topics .topic {
+    width: 32.333%;
+    float: left; 
+
+   
+    margin: 5px  5px ; 
+    padding: 5px
+        
+
+}
+
+.topics .topic p {
+    line-height: 1.7 ; 
+    margin: 0
+}
+
+.topics .topic:first-child {
+    background-color: crimson ; 
+}
+
+.topics .topic:nth-child(2) {
+    background-color: cornflowerblue
+}
+.topics .topic:nth-child(3) {
+    
+    background-color: darkgray ; 
+}
+.h1{
+    font-size: 2em 
+}
+
+/*about us style*****************************/
+.about {
+    background-color: #e5e3e5; 
+   
+}
+.about h2 {
+    color: #5b5252 ;
+    
+}
+
+.about .respon-p {
+    line-height: 1.8 ; 
+    font-size: 17px 
+}
+/* start clsses def********************************/
+
+.clearfix {
+clear: both;
+}
+
+.hidden-s {
+    display:block; 
+}
+.container {
+    margin: auto; 
+}
+.text-center {
+    text-align: center;
+}
+
+
+
+/*end classes drf**********************************/
+
+
+/*media quries small screen *****************************/
+
+@media (max-width: 767px) { /*small screen like phones*/
+    
+/*    header style quries*/
+    
+    .header .nav-bar , .header .search  {
+        float: none; 
+    } 
+    .header .nav-bar ul {
+        margin-left: -99px;
+    }
+    
+    .header .nav-bar ul li {
+         margin-right: 0px !important;
+         margin-left: 10px !important; 
+    }
+    
+    
+    .header .search {
+          margin-right: 144px  !important; 
+    }
+    
+    
+    .header .search input { 
+        position:relative;
+        top: 0 !important ; 
+        left: 30% !important;
+        margin-bottom: 5px ; 
+        
+    
+    }
+    
+    .hidden-s {
+    display:none; 
+        
+/*        topics style quries*/
+}
+
+    .topics .topic:first-child {
+        
+        width: 97% !important;
+        background-color: bisque; 
+        float: none !important;
+        margin: 10px
+       
+            
+    }
+    .topics .topic:nth-child(2){
+        background-color: coral;
+        width: 97% !important;
+        margin-left: 10px ; 
+        margin-right: 10px ;
+        margin-top: 5px
+    }
+    
+     .topics .topic:nth-child(3){
+        background-color:darkcyan;
+          width: 97% !important;
+          margin-left: 10px ; 
+        margin-right: 10px ;
+          margin-top: 5px
+              
+    }
+/*    about us style quries*/
+    
+    .about .respon-p   {
+        padding: 10px
+    }
+}
+
+
+
+
+
+
+
+
+/* mediam screen **************************/
+
+@media(min-width:768px) {
+    
+    .topics .topic:first-child {
+    
+        width: 90%;
+     margin-left: 5%;
+        margin-right: 5%;
+            
+    
+}
+     .topics .topic:nth-child(2) {
+    
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+            
+            
+    
+}
+     .topics .topic:nth-child(3) {
+    
+        width: 40%;
+         margin-left: 5%;
+        margin-right: 5%;
+            
+    
+}
+
+/* lagr screen media********************************/
+    
+@media (min-width: 992px){
+    .topics .topic {
+        width: 27.33% !important;
+        float: left !important;
+        margin: 3%  !important;
+        
+            
+    }
+    .topics .topic:first-child {
+        position: relative ;
+        left: 33.33%
+    }
+     .topics .topic:nth-child(2){
+        position: relative ;
+        right: 33.33%
+    }
+        
+    }
+    
+    
+/*container quries************************/
+
+@media (max-width: 767px) { 
+     .container { 
+    width: 300px;   
+    } 
+    
+    }
+
+@media (min-width: 768px) { 
+     .container { 
+    width: 780px
+    
+    }
+   
+
+
+
+@media (min-width:992px) { 
+     .container { 
+    width: 1000px
+    
+    }
+}
+
+
+
+
+@media (min-width: 1200px) { 
+     .container { 
+    width: 1200px 
+    
+    }
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
